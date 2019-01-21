@@ -37,7 +37,7 @@
     "heroku-postbuild": "gatsby build",
     "serve": "gatsby serve",
     "setup": "npm install --no-save contentful-import yargs-parser axios chalk && node ./setup.js",
-    "gh-pages": "gatsby build --prefix-paths && gh-pages -b gh-pages -d public"
+    "gh-pages": "gatsby build --prefix-paths && gh-pages -b master -d public"
   },
   "devDependencies": {
     "gh-pages": "^2.0.1"
