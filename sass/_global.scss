@@ -67,17 +67,19 @@ body {
   margin-bottom: 0;
   height: 90vh;
 
-  .hero-image {
-    width: 100%;
-    position: absolute;
-    margin-top: 10rem;
-    top: 0;
-    left: 0;
+  .hero-text-container {
+    z-index: 1;
   }
 
   .hero-image-container {
-    background: url('../static/images/hero_bg.svg');
-    height: 100px;
+    background-image: url('../static/images/hero_bg.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 70vh;
+    position: absolute;
+    bottom: 0;
   }
 
   .hero-text {
