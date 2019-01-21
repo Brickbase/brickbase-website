@@ -7,7 +7,7 @@ export default () => (
       <div className="container d-flex justify-content-between">
         <a href="#" className="navbar-brand d-flex align-items-center">
           {/* <strong>Brickbase</strong> */}
-          <img src="/images/brand_logo.jpg" />
+          <img src="/images/brand_logo.png" />
         </a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
