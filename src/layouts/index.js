@@ -4,6 +4,8 @@ import base from './base.css'
 import Container from '../components/container'
 import Navigation from '../components/navigation'
 
+import '../../sass/style.scss'
+
 class Template extends React.Component {
   render() {
     const { location, children } = this.props

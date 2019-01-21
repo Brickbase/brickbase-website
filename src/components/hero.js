@@ -1,15 +1,13 @@
 import React from 'react'
 import Img from 'gatsby-image'
 
-import styles from './hero.module.css'
-
 export default ({ data }) => (
-  <div className={styles.hero}>
-    <Img className={styles.heroImage} alt={data.name} sizes={data.heroImage.sizes} />
-    <div className={styles.heroDetails}>
-      <h3 className={styles.heroHeadline}>{data.name}</h3>
-      <p className={styles.heroTitle}>{data.title}</p>
-      <p>{data.shortBio.shortBio}</p>
+  <div className="row text-center section section-hero">
+    <div className="container-fluid">
+      <h1 className="hero-text text-center">{data.tagline}</h1>
+      <a href="#" role="button" className="btn btn-hero btn-yellow text-center">Ask for price</a>
+      <div className="hero-image-container"></div>
     </div>
+    {/* <img src="/images/hero_bg.svg" className="hero-image" /> */}
   </div>
 )
