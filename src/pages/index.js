@@ -1,10 +1,8 @@
 import React from 'react'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
-import Img from 'gatsby-image'
 import Hero from '../components/hero'
 import TeamMember from '../components/team-member'
-import ArticlePreview from '../components/article-preview'
 
 class RootIndex extends React.Component {
   render() {
@@ -17,6 +15,7 @@ class RootIndex extends React.Component {
         <Helmet>
           <title>Brickbase</title>
         </Helmet>
+
         <Hero data={company} />
 
         {/* What we do */}
@@ -24,23 +23,20 @@ class RootIndex extends React.Component {
           <div className="container text-center">
             <h3>What does Brickbase do?</h3>
             <div className="row">
-              <div className="col-md-4">
-              <h4>Securitization</h4>
-              <small>
-              Brickbase does something very simple, that yet cannot be found on international markets:
-
-Real Estate Securitization.
-
-REITs and real estate funds are pools of properties, spread across a country or across the globe, and very often the investment product is not even real estate!</small>
+              <div className="col-md-4 what-we-do-items">
+                <h4>Securitization</h4>
+                <small>
+                  Brickbase does something very simple, that yet cannot be found on international markets: Real Estate Securitization.
+                  REITs and real estate funds are pools of properties, spread across a country or across the globe, and very often the investment product is not even real estate!
+                </small>
               </div>
-              <div className="col-md-4">
-                <span className="icon-liquidity"></span>
+              <div className="col-md-4 what-we-do-items">
                 <h4>Liquidity</h4>
                 <small>
                 Liquidity is not an attribute that appeals only to investors and financial practitioners: greater liquidity means cheaper cost of funding for property development projects. Greater liquidity in the real estate market would also have a tempering effect on the credit crunch that comes with periods of financial crisis
                 </small>
               </div>
-              <div className="col-md-4">
+              <div className="col-md-4 what-we-do-items">
                 <h4>Simplicity</h4>
                 <small>
                 While investing in the shareholders' capital of a company can be done through a simple "Buy" order on a stock exchange, investing in real estate is a much more bureaucratic process.

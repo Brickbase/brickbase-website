@@ -6,6 +6,19 @@ body {
     background-color: #FFF;
 }
 
+p {
+  font-size: 18px;
+}
+
+small {
+  font-size: 14px;
+}
+
+.row {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
 .visually-hidden {
     position: absolute;
     overflow: hidden;
@@ -28,7 +41,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5rem 20px;
+  padding: 5rem 20px 3rem 20px;
 
   h3 {
     margin-bottom: 70px;
@@ -102,11 +115,23 @@ body {
     color: #000;
     margin-bottom: 2rem;
   }
+  .what-we-do-items {
+    padding-bottom: 60px;
+  }
 }
 
 .section-team {
   background: #F7F7F7;
   min-height: 50vh;
+
+  .team-member {
+    padding-bottom: 60px;
+
+    .team-image {
+      margin-bottom: 20px;
+      max-height: 175px;
+    }
+  }
 }
 
 .section-partners {
