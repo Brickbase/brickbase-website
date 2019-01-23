@@ -27,6 +27,7 @@ class RootIndex extends React.Component {
             <h3>What does Brickbase do?</h3>
             <div className="row">
               <div className="col-md-4 what-we-do-items">
+              <embed src="/images/securitization-icon.svg" className="what-we-do-icon" />
                 <h4>Securitization</h4>
                 <small>
                   Brickbase does something very simple, that yet cannot be found on international markets: Real Estate Securitization.
@@ -34,12 +35,14 @@ class RootIndex extends React.Component {
                 </small>
               </div>
               <div className="col-md-4 what-we-do-items">
+                <embed src="/images/liquidity-icon.svg" className="what-we-do-icon" />
                 <h4>Liquidity</h4>
                 <small>
                 Liquidity is not an attribute that appeals only to investors and financial practitioners: greater liquidity means cheaper cost of funding for property development projects. Greater liquidity in the real estate market would also have a tempering effect on the credit crunch that comes with periods of financial crisis
                 </small>
               </div>
               <div className="col-md-4 what-we-do-items">
+                <embed src="/images/simplicity-icon.svg" className="what-we-do-icon" />
                 <h4>Simplicity</h4>
                 <small>
                 While investing in the shareholders' capital of a company can be done through a simple "Buy" order on a stock exchange, investing in real estate is a much more bureaucratic process.
